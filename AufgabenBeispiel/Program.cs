@@ -16,6 +16,8 @@ namespace FizzBuzzTest
         static void Main(string[] args)
         {
             Console.Title = "FizzBuzzTest";
+            Console.ForegroundColor = ConsoleColor.White;
+            Console.BackgroundColor = ConsoleColor.DarkBlue;
             Start();
         }
 
